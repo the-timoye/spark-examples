@@ -3,24 +3,24 @@ This project does some data-wrangling on a json dataset; answering analytical qu
 
 ## Data-set Schema
 root                                                          
-    |-- artist: string (nullable = true)
-    |-- auth: string (nullable = true)
-    |-- firstName: string (nullable = true)
-    |-- gender: string (nullable = true)
-    |-- itemInSession: long (nullable = true)
-    |-- lastName: string (nullable = true)
-    |-- length: double (nullable = true)
-    |-- level: string (nullable = true)
-    |-- location: string (nullable = true)
-    |-- method: string (nullable = true)
-    |-- page: string (nullable = true)
-    |-- registration: long (nullable = true)
-    |-- sessionId: long (nullable = true)
-    |-- song: string (nullable = true)
-    |-- status: long (nullable = true)
-    |-- ts: long (nullable = true)
-    |-- userAgent: string (nullable = true)
-    |-- userId: string (nullable = true)
+    |-- artist: string (nullable = true) <br>
+    |-- auth: string (nullable = true) <br>
+    |-- firstName: string (nullable = true) <br>
+    |-- gender: string (nullable = true) <br>
+    |-- itemInSession: long (nullable = true) <br>
+    |-- lastName: string (nullable = true) <br>
+    |-- length: double (nullable = true) <br>
+    |-- level: string (nullable = true) <br>
+    |-- location: string (nullable = true) <br>
+    |-- method: string (nullable = true) <br>
+    |-- page: string (nullable = true) <br>
+    |-- registration: long (nullable = true) <br>
+    |-- sessionId: long (nullable = true) <br>
+    |-- song: string (nullable = true) <br>
+    |-- status: long (nullable = true) <br>
+    |-- ts: long (nullable = true) <br>
+    |-- userAgent: string (nullable = true) <br>
+    |-- userId: string (nullable = true) <br>
 
 ## Question 1: Which page did user id "" not visit?
 ### Steps:
