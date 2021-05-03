@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import desc
 
 spark_session = SparkSession.builder.appName("Wrangling Data").getOrCreate()
 
@@ -21,6 +22,6 @@ count_females = spark_df.select('userId').where(spark_df.gender == 'F').dropDupl
 print(count_females)
 
 print('==================== Question 3: How many songs were played form the most played artist? ====================')
-
+spark_df.select('artist').groupBy('artist').agg({'artist': 'count'}).sort(desc('count(artist)')).show(1)
 
 print('==================== Question 4: How many songs do users listen to on average between visiting our home page? ====================')
