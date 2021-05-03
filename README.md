@@ -33,3 +33,9 @@ root
     - `select` all distinct users using the dropDuplicates() method,
     - `filter` by gender 'F'
     - `count` the result
+
+## Question 3: Question 3: How many songs were played form the most played artist?
+### Steps:
+    - Select and group dataframe by artists
+    - Run a `count` aggregate.
+    - Sort in descending order and display the first item in the results.
