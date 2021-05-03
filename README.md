@@ -22,9 +22,14 @@ root
     |-- userAgent: string (nullable = true)
     |-- userId: string (nullable = true)
 
-## Question 1:
-    Which page did user id "" not visit?
+## Question 1: Which page did user id "" not visit?
 ### Steps:
     - Unique Pages are selected from the dataset using the `dropDuplicates()` method
     - Unique pages visited by the user is selected from the dataframe using the `where()` and `dropDuplicates()` methods
     - results are put in a set, and missing pages from the users pages are extracted
+
+## Question 2: How many females are in the dataset?
+### Steps:
+    - `select` all distinct users using the dropDuplicates() method,
+    - `filter` by gender 'F'
+    - `count` the result
