@@ -1,4 +1,4 @@
-# spark-examples
+# Spark Examples
 This project does some data-wrangling on a json dataset; answering analytical questions from Udacity's Data Engineering Nanodegree program
 
 ## Data-set Schema
